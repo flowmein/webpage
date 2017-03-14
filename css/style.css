@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+
+body {
+  height: 1500px;
+  font-family: "Press Start 2P", Arial, san-serif;
+  background-color: #558C89;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.player-section {
+  display: inline-block;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    padding-top: 14px !important; 
+    padding-bottom:0px !important;
+    height: 25px;
+}
+.navbar {
+  min-height: 20px !important;
+}
+
+.navbar-brand {
+  font-family: "Press Start 2P", Arial, san serif;
+  text-transform: lowercase;
+}
+
+.btn btn-twitter {
+  
+}
+
+.jumbotron{
+  background-color: hsl(0%, 0%, 80%);
+  border: 0px solid transparent;
+  border-radius: 15px;
+  height: 100%;
+}
+
+h2 {
+  margin-top: -10px;
+  margin-bottom: 35px;
+  text-decoration: underline;
+}
+
+ul.nav {
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+ul.nav li{
+  display: inline-block;
+  float: none;
+}
+
+.link {
+  display: inline-block;
+  text-transform: uppercase;
+  height: 30px;
+  width: 120px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-size: 0.8em;
+  margin: 10px;
+  position: relative;
+  text-decoration: none;
+
+  span {
+    position: absolute;
+    margin: 5% auto;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 10px;
+    text-align: center;
+  }
+}
+
+.player {
+  display: inline-block;
+}
+
+
+
+p {
+  font-family: "Ubuntu", Arial, san-serif;
+  font-size: small;
+}
+
+
+
